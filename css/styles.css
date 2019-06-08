@@ -74,6 +74,26 @@
     margin-bottom: 0px;
 }
 
+.mouse_click {
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.mouse_click:hover {
+    animation: none;
+}
+
 .section-header {
     text-align: center;
     line-height: 30px;
@@ -158,4 +178,21 @@ textarea::-webkit-input-placeholder {
     background-image: radial-gradient(rgb(226, 216, 226), #864e05e7);
     border: none;
     color: black;
+}
+
+.contact button:hover {
+    background-image: radial-gradient(rgba(226, 216, 226, 0.918), #864e05);
+    color: #553204;
+    font-style: italic;
+}
+
+.contact button:active {
+    background-image: radial-gradient(rgba(226, 216, 226, 0.918), #864e05);
+    border: none;
+}
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
 }
