@@ -116,3 +116,46 @@ figcaption {
     width: 220px;
     height: 180px;
 }
+
+.contact {
+    padding: 50px;
+    background-image: url("../images/backgrounds/c_image.jpg");
+    width: 100%;
+    color: whitesmoke;
+    background-size: cover;
+}
+
+.contact input,
+.contact textarea {
+    background: none;
+    border: 2px solid gray;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.849);
+}
+
+textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.contact .row {
+    padding: 8px;
+    width: 70%;
+    margin: auto;
+}
+
+.col-md-6 input {
+    width: 350px;
+}
+
+.contact button {
+    margin: auto;
+    padding: 5px 40px;
+    border-radius: 5px;
+    background-image: radial-gradient(rgb(226, 216, 226), #864e05e7);
+    border: none;
+    color: black;
+}
