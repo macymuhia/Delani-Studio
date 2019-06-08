@@ -92,7 +92,7 @@
 }
 
 .what-we-do {
-    margin: 50px 50px;
+    margin: 50px 70px;
 }
 
 .what-we-do h2 {
@@ -103,12 +103,16 @@
     width: 60px;
 }
 
+figcaption {
+    font-size: 14px;
+}
+
 .portfolio {
     margin: 50px 180px;
 }
 
 .portfolio img {
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 180px;
 }
