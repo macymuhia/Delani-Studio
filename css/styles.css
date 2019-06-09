@@ -196,3 +196,19 @@ textarea::-webkit-input-placeholder {
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.25em);
 }
+
+footer .row {
+    width: 100%;
+    padding: 30px 20px 10px 20px;
+    justify-content: center;
+}
+
+footer img {
+    width: 45px;
+    /* padding: 5px; */
+}
+
+footer h5 {
+    font-size: 12px;
+    line-height: 15px;
+}
