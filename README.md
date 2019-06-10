@@ -1,6 +1,6 @@
 # DELANI STUDIO
 ![Portfolio Webpage Screenshot](./images/Delani-screenshot.png)
-Check out my recreated Delani studio [here](https://macymuhia.github.io/Delani-studio/)
+#### Check out Delani studio [here](https://macymuhia.github.io/Delani-studio/)
 
 Last modified 10th June 2019.
 #### By **Mercy Muhia**
