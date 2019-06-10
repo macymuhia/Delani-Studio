@@ -47,4 +47,10 @@ $(document).ready(function() {
         $(".p-mgt-initially-showing").show();
     });
 
+    // Hover effect on portfolio images
+    $(".portfolio img").hover(function() {
+        $(".col-md-3 img").addClass("image");
+        $(".project-name").show();
+    });
+
 });

@@ -122,6 +122,61 @@ figure,
     display: none;
 }
 
+
+/* image overlay on hover */
+
+.box {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    /* width: 220px;
+    height: 180px; */
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.466);
+    opacity: 0;
+}
+
+.box:hover .image {
+    opacity: 0.3;
+}
+
+.box:hover .middle {
+    opacity: 1;
+}
+
+.project-name {
+    display: none;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 180px;
+    height: 150px;
+    border: 3px solid white;
+    margin: 15px 25px 15px 15px;
+}
+
+
+/* image overlay on hover */
+
 .what-we-do {
     margin: 50px 70px;
 }
@@ -144,7 +199,7 @@ figcaption {
 }
 
 .portfolio img {
-    margin: 20px;
+    margin: 20px 0px;
     width: 220px;
     height: 180px;
 }
