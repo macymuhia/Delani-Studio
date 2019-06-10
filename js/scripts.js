@@ -73,4 +73,9 @@ $(document).ready(function() {
         $(".project-name").show();
     });
 
+    $("#button").click(function() {
+
+        event.preventDefault();
+    });
+
 });
