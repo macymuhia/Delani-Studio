@@ -1,3 +1,23 @@
+// Javascript
+var customerMessage = [];
+
+function showCustomerMessage() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("textarea").value;
+
+    if (name && email && message) {
+        customerMessage.push(name, email, message);
+        alert("Hi " + name + ", \nThank you for reaching out to us, we will respond as soon as possible.");
+        return customerMessage;
+
+    } else {
+        alert("Please fill in all fields");
+    }
+}
+
+
+// jQuery
 $(document).ready(function() {
 
     //Preloader
