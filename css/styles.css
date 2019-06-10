@@ -111,6 +111,17 @@
     background-size: cover;
 }
 
+figure,
+.portfolio img {
+    cursor: pointer;
+}
+
+.design-initially-hidden,
+.dev-initially-hidden,
+.p-mgt-initially-hidden {
+    display: none;
+}
+
 .what-we-do {
     margin: 50px 70px;
 }
@@ -125,6 +136,7 @@
 
 figcaption {
     font-size: 14px;
+    font-weight: bold;
 }
 
 .portfolio {
