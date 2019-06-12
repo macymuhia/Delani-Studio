@@ -222,25 +222,23 @@ figcaption {
     padding: 5px;
 }
 
-input::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.849);
+.form-control {
+    background-color: black;
+    color: whitesmoke;
 }
 
+input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.849);
+    color: rgba(255, 255, 255, 0.849) !important;
 }
 
-.contact .row {
+.contact .form-row {
     padding: 8px;
     width: 70%;
     margin: auto;
 }
 
-.col-md-6 input {
-    width: 350px;
-}
-
-.contact button {
+.form-group button {
     margin: auto;
     padding: 5px 40px;
     border-radius: 5px;
