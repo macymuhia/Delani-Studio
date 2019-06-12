@@ -195,13 +195,12 @@ figcaption {
 }
 
 .portfolio {
-    margin: 50px 180px;
+    margin: 100px;
 }
 
 .portfolio img {
-    margin: 20px 0px;
-    width: 220px;
-    height: 180px;
+    margin: 5%;
+    width: 100%;
 }
 
 .contact {
